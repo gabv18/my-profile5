@@ -1,0 +1,74 @@
+body{
+	background-color: rgb(181, 192, 208);
+}
+p{
+	color: rgb(0, 0, 0) ;
+}
+img {
+            max-width: 100%;
+            max-height: 100%;
+            margin: auto; /* Centrage horizontal */
+            display: block;
+        }
+
+.container {
+  overflow: auto;
+}
+
+.align-gauche {
+  float: left;
+  width: 70%;
+}
+
+a {
+  float: left;
+  width: 70%;
+}
+
+.image-droite {
+    float: right;
+    width: 20%; /* Vous pouvez ajuster la taille selon vos besoins */
+    height: auto; /* Pour conserver les proportions de l'image */
+}
+
+
+
+
+.gras {
+  font-weight: bold;
+}
+
+body{
+	font-family:New Century Schoolbook, TeX Gyre Schola, serif ;
+}   
+
+body {
+    background-color: bleu;
+}
+
+.img-circle { /* select all elements with the class="img-circle" */
+  border-radius: 50%;
+} 
+.img-circle {
+	width: 50%;
+	height: auto;
+} 
+
+div {
+	background: white;
+	border: 2px;
+}
+
+.container{
+	width: 600px;     /* Fix the width first*/
+	margin: 40px auto;
+	border: 1px solid black;
+	border-radius: 15px;
+	box-shadow: 0 10px 10px rgba(0,0,0,.9);
+}
+
+
+.container:hover {
+    transform: scale(1.1); 
+}
+
